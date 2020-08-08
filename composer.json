@@ -1,0 +1,18 @@
+{
+    "name": "be-flo/t3-message-queue",
+    "type": "typo3-cms-extension",
+    "description": "Message queue extension based on Symfony Messenger",
+    "homepage": "https://t3tech.de",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^10.2",
+        "typo3/cms-rte-ckeditor": "^10.2",
+        "typo3/cms-fluid-styled-content": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeFlo\\T3MessageQueue\\": "Classes/"
+        }
+    }
+}
